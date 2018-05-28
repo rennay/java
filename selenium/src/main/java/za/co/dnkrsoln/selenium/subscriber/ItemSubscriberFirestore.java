@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ItemSubscriberFirestore extends ItemSubscriberBase {
-    private String SERVICE_ACCOUNT_CREDENTIALS = "/Users/nb309158/Downloads/NewFriendlyChat-b26df8f16da4.json";
+    private String SERVICE_ACCOUNT_CREDENTIALS = "/home/apps/NewFriendlyChat-b26df8f16da4.json";
     private String FIREBASE_USER = "newfriendlychat-63187@appspot.gserviceaccount.com";
     private String DATABASE_URL = "https://newfriendlychat-63187.firebaseio.com";
     private String FIREBASE_ROLE = "my-service-worker";
