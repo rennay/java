@@ -39,8 +39,8 @@ public abstract class CollectorBase {
     public CollectorBase() {
         // Add options to Google Chrome. The window-size is important for responsive sites
         options = new ChromeOptions();
-//        options.addArguments("headless");
-        options.addArguments("window-size=1200x600");
+        options.addArguments("headless");
+//        options.addArguments("window-size=1200x600");
         driver = new ChromeDriver(options);
         map = new HashMap<>();
     }
